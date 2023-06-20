@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Monoton&family=Poppins&display=swap');
+
+@font-face {
+    font-family: "FrozenNeutra";
+    src: url("../fonts/FrozenNeutra.otf");
+}
+
+.ctd-principal {
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 25%;
+}
+
+.titulo-principal {
+    font-family: 'FrozenNeutra';
+    font-weight: 400;
+    font-size: 95px;
+    color: #cfcfcf;
+}
+
+.sub-principal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #cfcfcf
+}
+
+.text-desc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #cfcfcf;
+}
+
+.ctd-principal-esc-botao {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #cfcfcf;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.ctd-principal-esc-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: #060606;
+}
+
+.ctd-principal-esc-botao:hover {
+    transform: scale(1.04);
+    transition: 1s;
+    transition-duration: 0.3s;
+    background-color: #006464;
+    color: #cfcfcf;
+}
+
+.ctd-principal-img {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 65px;
+}
+
+.livro {
+    background-color: #cfcfcf;
+}
+
+.grupo-livro {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-livro {
+    padding-right: 40px;
+}
+
+.cnt-livro {
+    text-align: justify;
+    width: 100%;
+}
+
+.livro-titulo {
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.livro-seg-titulo {
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.livro-descricao {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.livro-seg-descricao {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: flex-end;
+    color: #060606;
+}
+
+.livro-seg-descricao:hover {
+    color: #060606;
+}
+
+.botao-livro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #060606;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.botao-livro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: flex-end;
+    color: #cfcfcf;
+}
+
+.botao-livro:hover {
+    transform: scale(1.04);
+    transition: 1s;
+    transition-duration: 0.3s;
+    background-color: #006464;
+    color: #cfcfcf;
+}
+
+.area-botão {
+    align-content: space-around;
+}
+
+.person {
+    background-image: url(../img/geral/Cyan.png);
+}
+
+.cnt-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cnt-person-escrito {
+    margin-top: 170px;
+    margin-bottom: 160px;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #cfcfcf
+}
+
+.cnt-person-escrito-t {
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #cfcfcf;
+}
+
+.cnt-person-escrito-s {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #cfcfcf;
+}
+
+.botao-person {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 180px;
+    height: 60px;
+    border: 2px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.botao-person {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf
+}
+
+.botao-person:hover {
+    border: 1.5px solid #cfcfcf;
+    z-index: 1000;
+    transform: scale(1.04);
+    transition: 1s;
+    transition-duration: 0.3s;
+    color: #cfcfcf;
+}

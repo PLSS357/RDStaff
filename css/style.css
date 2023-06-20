@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Monoton&family=Poppins&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #060606;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #003535;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #003535;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(45deg, #00FFFF, #00FFFF);
+}
+
+::selection {
+    background-color: #00FFFF;
+    color: white;
+}
+
+.cabecalho {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.4px solid #1b1b1b;
+    padding-bottom: 15px;
+}
+
+.cabecalho-img {
+    height: 5%;
+}
+
+.cabecalho-mn {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-mn-item {
+    font-family: 'Poppins', sans-serif;
+    color: #cfcfcf;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cabecalho-mn-item:hover {
+    transition-duration: 0.3s;
+    color: #00FFFF;
+}
+
+.conteudo-rodape {
+    border-top: 0.4px solid #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #363636;
+}
+
+.conteudo-rodape-escrito {
+    margin-left: 180px;
+    padding-top: 15px;
+}
+
+.texto-pequeno {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #cfcfcf
+}
+
+.texto-medio {
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: #cfcfcf
+}
+
+.texto-grande {
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #cfcfcf
+}
+
+.row {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+    color: #cfcfcf;
+}
